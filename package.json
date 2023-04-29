@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "snapshot": "percy snapshot public/"
+  },
   "devDependencies": {
     "@percy/cli": "1.14.0"
   }
