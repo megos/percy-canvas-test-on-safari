@@ -3,6 +3,6 @@
     "snapshot": "percy snapshot public/"
   },
   "devDependencies": {
-    "@percy/cli": "1.14.0"
+    "@percy/cli": "1.24.0"
   }
 }
