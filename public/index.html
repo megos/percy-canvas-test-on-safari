@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const [canvas1, canvas2] = document.querySelectorAll('canvas')
+
+        const ctx1 = canvas1.getContext('2d')
+        ctx1.fillStyle = 'white'
+        ctx1.fillRect(0, 0, 120, 120)
+        ctx1.fillStyle = 'black'
+        ctx1.font = '48px serif'
+        ctx1.fillText('Text', 16, 72)
+
+        const ctx2 = canvas2.getContext('2d')
+        ctx2.fillStyle = 'black'
+        ctx2.fillRect(0, 0, 120, 120)
+        ctx2.fillStyle = 'white'
+        ctx2.font = '48px serif'
+        ctx2.fillText('Text', 16, 72)
+      });
+    </script>
+  </head>
+  <body style="background-color: grey;">
+    <canvas
+      width="120px"
+      height="120px"
+      style="border: 8px solid black;"
+    ></canvas>
+    <canvas
+      width="120px"
+      height="120px"
+      style="border: 8px solid white;"
+    ></canvas>
+  </body>
+</html>
