@@ -2,3 +2,4 @@ version: 2
 snapshot:
   widths:
     - 375
+  enable-javascript: true
